@@ -1,0 +1,121 @@
+body{
+   background-color: red;
+   color: white;
+   margin: 0px;
+   font-family: Mitr;
+}
+.btn{
+  text-align: center;
+  display: inline-block;
+  width: 100px;
+  height: 20px;
+  background-color: transparent;
+  border-radius: 5px;
+  font-weight: bolder;
+  font-size: 20px;
+  text-decoration: none;
+  color:white;
+}
+.btn:active{
+  color:black;
+}
+.rightpanel{
+  text-align: center;
+  float: right;
+  position: inherit;
+  width: 20%;
+  height: 100%;
+}
+.leftpanel{
+  text-align: center;
+  float: left;
+  background-color: rgba(232, 232, 232, 0.37);
+  position: inherit;
+  width: 12%;
+  height: 100%;
+}
+.subleft{
+  text-align: center;
+}
+.content{
+  border-radius: 6px;
+  float: left;
+  padding-left: 20px;
+  width: 65%;
+  height: 100%;
+}
+.avartar{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.upstatus{
+  background-color: black;
+  border-radius: 6px;
+}
+.upstatus input[type='text']{
+  width: 70%;
+  height: 70px;
+}
+.status{
+  padding: 10px;
+  background-color:rgba(232, 232, 232, 0.37);
+}
+input[type='text']{
+  border: 0px;
+}
+.footer{
+  display: none;
+}
+input[type="file"] {
+    display: none;
+}
+.custom-file-upload {
+    border: 0px;
+    display: inline-block;
+    padding: 6px 12px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#addg{
+  width: 20px;
+  height: 20px;
+}
+@media only screen and (max-width: 414px){
+  .leftpanel{
+    display: none;
+  }
+  .upstatus{
+    top: 0;
+  }
+  .head{
+    display: inline-block;
+    color: black;
+    background-color: white;
+    width: 100%;
+  }
+  .head input[type='text']{
+    display: none;
+  }
+  .content{
+    width: 100%;
+    padding-left: 0px;
+  }
+  .rightpanel{
+    display: none;
+  }
+  .footer{
+    display: block;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 45px;
+    background-color:white;
+    text-align: center;
+    color: black;
+  }
+  .footer a {
+    color: black;
+  }
+}
